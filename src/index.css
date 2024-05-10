@@ -13,10 +13,35 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
 }
