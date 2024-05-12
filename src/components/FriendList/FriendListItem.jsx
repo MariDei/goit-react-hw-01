@@ -1,4 +1,4 @@
-import css from "./FriendList.module.css";
+import css from './FriendList.module.css';
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
@@ -6,7 +6,7 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
       <img className={css.avatar} src={avatar} alt="Avatar" width="75" />
       <p className={css.title}>{name}</p>
       <p className={isOnline ? css.online : css.offline}>
-        {isOnline ? "Online" : "Offline"}
+        {isOnline ? 'Online' : 'Offline'}
       </p>
     </div>
   );

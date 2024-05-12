@@ -1,5 +1,4 @@
-// import clsx from "clsx";
-import css from "./Profile.module.css";
+import css from './Profile.module.css';
 
 const Profile = ({
   name,
