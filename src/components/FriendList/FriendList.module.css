@@ -1,9 +1,8 @@
 .container {
   margin: 50px auto;
   display: flex;
-  flex-wrap: row;
+  flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
-  flex: 1;
-  gap: 20px;
+  justify-content: space-evenly;
+  gap: 10px;
 }
